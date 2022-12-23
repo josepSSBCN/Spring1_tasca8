@@ -15,7 +15,7 @@ public class Main {
 
         //region ACTIONS
         myList = new ArrayList<>(Arrays.asList("Hola", 23, "com", 34, "et", 56, "trobes", 11, "?"));
-        myList.sort(Comparator.comparing(t -> t.getClass().equals(String.class)).thenComparing(t -> t.toString().length()));
+        myList.sort(Comparator.comparing(t -> t.getClass().equals(String.class)).thenComparing(t -> t.toString().length()).reversed());
 
         //endregion ACTIONS
 

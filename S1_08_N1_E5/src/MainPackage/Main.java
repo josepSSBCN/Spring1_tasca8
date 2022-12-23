@@ -10,12 +10,10 @@ public class Main {
 
         //endregion DEFINITION VARIABLES
 
-
         //region ACTIONS
         myDouble = myFI.getPiValue(3.1415);
 
         //endregion ACTIONS
-
 
         // OUT
         System.out.println(myDouble);
