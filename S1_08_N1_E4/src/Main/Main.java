@@ -10,11 +10,8 @@ public class Main {
                 "Maig", "Juny", "Juliol",
                 "Agost", "Setembre", "Octubre", "Novembre", "Decembre"));
 
-        myList.forEach(p -> print(p));
-        
+        myList.forEach(p -> {System.out.println(p);});
+
     }
 
-    public static void print(String inString){
-        System.out.println(inString);
-    }
 }
